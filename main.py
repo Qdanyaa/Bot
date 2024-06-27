@@ -10,7 +10,7 @@ tasks = []
 
 num = 0
 
-application = ApplicationBuilder().token("6569412233:AAEyJynHHE6s1t-8m9ofn-nNtSh3-nSQ4OY").build()
+application = ApplicationBuilder().token("YOUR TOKEN").build()
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id = update.effective_chat.id, text = "Hello! I can help you with tracking your tasks.")
